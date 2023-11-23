@@ -1,0 +1,97 @@
+
+.App2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: url("C:\react\Dead\myname\src\Assets\Orange aesthetic wallpaper for laptop.jpeg") no-repeat center center;
+  background-size: cover;
+}
+form {
+  width: 400px;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.toggle-btn {
+  margin-top: 20px;
+  cursor: pointer;
+  color:white;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.toggle-btn:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  margin-right: 8px;
+  color: #007bff;
+}
+
+.submit-btn {
+  background-color: orange;
+  color:white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  align-items: center;
+  margin-left: 145px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+  align-items: center;
+  text-align: center;
+}
+
